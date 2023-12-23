@@ -1,0 +1,63 @@
+console.log("Hello World";)
+VM56:1 Uncaught SyntaxError: missing ) after argument list
+console.log("Hello World");
+VM68:1 Hello World
+undefined
+var a = 10;
+undefined
+typeof(a);
+'number'
+a = "Yash";
+'Yash'
+typeof(a);
+'string'
+a = true;
+true
+typeof(a);
+'boolean'
+//DataTypes in JS...
+undefined
+// number....
+undefined
+var a = 10;
+undefined
+a = 110.5;
+110.5
+a = "Hello";
+'Hello'
+typeof(a);
+'string'
+a = true;
+true
+typeof(a);
+'boolean'
+vaar b;
+VM491:1 Uncaught SyntaxError: Unexpected identifier 'b'
+var b;
+undefined
+typeof(b);
+'undefined'
+//null
+undefined
+a = null;
+null
+a;
+null
+typeof(a);
+'object'
+Number
+ƒ Number() { [native code] }
+Number.MAX_SAFE_INTEGER;
+9007199254740991
+var big = 345678908786543567890876554678;
+undefined
+big;
+3.456789087865436e+29
+var big = 345678908786543567890876554678n;
+undefined
+big;
+345678908786543567890876554678n
+typeof(big);
+'bigint'
+//Symbol
+undefined
