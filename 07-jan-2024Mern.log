@@ -1,0 +1,166 @@
+var a = parseInt(prompt("Enter first number"));
+var operator = prompt("Enter Operation");
+var b =parseInt(prompt("Enter first number"));
+
+if(operator === "+"){
+    console.log("The result is: ",a+b);
+}else if(operator === "-"){
+    console.log("The result is: ",a-b);
+}else if(operator === "*"){
+    console.log("The result is: ",a*b);
+}else if(operator === "%"){
+    console.log("The result is: ",a%b);
+}else{
+    console.log("The result is: ",a/b);
+}
+VM678:6 The result is:  10
+undefined
+var a = parseInt(prompt("Enter first number"));
+var operator = prompt("Enter Operation");
+var b =parseInt(prompt("Enter first number"));
+
+if(operator === "+"){
+    console.log("The result is: ",a+b);
+}else if(operator === "-"){
+    console.log("The result is: ",a-b);
+}else if(operator === "*"){
+    console.log("The result is: ",a*b);
+}else if(operator === "%"){
+    console.log("The result is: ",a%b);
+}else{
+    console.log("The result is: ",a/b);
+}
+VM957:8 The result is:  -11
+undefined
+var arr = [1,2,3,4,5];
+undefined
+arr[2];
+3
+arr[2] = 7;
+7
+arr;
+(5) [1, 2, 7, 4, 5]
+arr[5] = 6;
+6
+arr;
+(6) [1, 2, 7, 4, 5, 6]
+arr[10] = 67;
+67
+arr;
+(11) [1, 2, 7, 4, 5, 6, empty × 4, 67]0: 11: 22: 73: 44: 55: 610: 67length: 11[[Prototype]]: Array(0)
+arr.length;
+11
+var len = arr.length;
+undefined
+for(var i=0;i<arr.length;i++){
+    console.log(arr[i]);
+}
+VM1354:2 1
+VM1354:2 2
+VM1354:2 7
+VM1354:2 4
+VM1354:2 5
+VM1354:2 6
+VM1354:2 undefined
+VM1354:2 undefined
+VM1354:2 undefined
+VM1354:2 undefined
+VM1354:2 67
+undefined
+var arr1 = ["Harshit","Yash","Jatin"];
+undefined
+for(var i = 0;i<arr1.length;i++){
+    console.log(arr1[i]);
+}
+VM1521:2 Harshit
+VM1521:2 Yash
+VM1521:2 Jatin
+undefined
+for(var i = 0;i<2;i++){
+    console.log(arr1[i]);
+}
+VM1531:2 Harshit
+VM1531:2 Yash
+undefined
+for(i in arr1){
+    console.log(arr1[i]);
+}
+VM1644:2 Harshit
+VM1644:2 Yash
+VM1644:2 Jatin
+undefined
+for(i in arr1){
+    console.log(i);
+}
+VM1671:2 0
+VM1671:2 1
+VM1671:2 2
+undefined
+for(i of arr1){
+    console.log(i);
+}
+VM1734:2 Harshit
+VM1734:2 Yash
+VM1734:2 Jatin
+undefined
+var arr2 = [0,1,2,3,4,5]; 
+undefined
+for(i in arr2){
+    console.log(i);
+}
+VM1795:2 0
+VM1795:2 1
+VM1795:2 2
+VM1795:2 3
+VM1795:2 4
+VM1795:2 5
+undefined
+for(i of arr1){
+    console.log(i);
+}
+VM1802:2 Harshit
+VM1802:2 Yash
+VM1802:2 Jatin
+undefined
+for(i of arr2){
+    console.log(i);
+}
+VM1809:2 0
+VM1809:2 1
+VM1809:2 2
+VM1809:2 3
+VM1809:2 4
+VM1809:2 5
+undefined
+arr2;
+(6) [0, 1, 2, 3, 4, 5]
+arr2.push(7);
+7
+arr2;
+(7) [0, 1, 2, 3, 4, 5, 7]
+arr2.pop();
+7
+arr2;
+(6) [0, 1, 2, 3, 4, 5]
+arr2.pop(2);
+5
+arr2.unshift(8);
+6
+arr2;
+(6) [8, 0, 1, 2, 3, 4]
+arr2.shift();
+8
+arr2;
+(5) [0, 1, 2, 3, 4]
+arr2.splice(2,0,67);
+[]
+arr2;
+(6) [0, 1, 67, 2, 3, 4]
+arr2.splice(2,3);
+(3) [67, 2, 3]
+arr2;
+(3) [0, 1, 4]
+arr2.splice(2,1,5)
+[4]
+arr2;
+(3) [0, 1, 5]
