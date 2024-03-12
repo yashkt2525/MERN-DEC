@@ -1,0 +1,15 @@
+.row{
+
+}
+
+.row > h1 {
+    font-weight: 600;
+    padding: 0 20px;
+}
+
+.cards{
+    display: flex;
+    overflow-x: auto;
+    gap: 4px;
+    align-items: center;
+}
